@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </RelativeLayout>
+
+    <TableRow
+        android:id="@+id/container_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RelativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp" >
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RelativeLayout1"
+        android:layout_marginTop="66dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/advancedfont" />
+
+    <ImageButton
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/audio"
+        android:contentDescription="@string/button_video"
+        android:src="@drawable/movies" />
+
+    <ImageButton
+        android:id="@+id/audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/video"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/button_audio"
+        android:src="@drawable/clipping_music" />
+
+    <ImageButton
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/audio"
+        android:layout_toLeftOf="@+id/audio"
+        android:contentDescription="@string/button_photo"
+        android:src="@drawable/slr_camera" />
+
+</RelativeLayout>

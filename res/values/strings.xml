@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FunToUsActivity!</string>
+    <string name="app_name">FunToUs</string>
+    <string name="button_photo">Tirar Foto</string>
+    <string name="button_video">Filmar</string>
+    <string name="button_audio">Gravar Audio</string>
+    <string name="logo">funtous</string>
+
+</resources>
